@@ -1,0 +1,3 @@
+[submodule "raft-golang"]
+	path = raft-golang
+	url = https://github.com/etcd-io/raft.git
