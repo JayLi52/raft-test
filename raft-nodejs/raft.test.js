@@ -10,7 +10,7 @@ test('TestProgressLeader', () => {
   r.trk.progress[2].becomeReplicate();
 
   // 发送提案到r1，前5个条目应该进入不稳定日志
-  const propMsg = new Message({
+  const propMsg = new Message({ 
     from: 1,
     to: 1,
     type: 'MsgProp',
